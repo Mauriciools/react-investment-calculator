@@ -1,0 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito&family=Rubik&display=swap');
+
+header img {
+    padding-top: 2rem;
+    width: 8rem;
+}
+
+header h1 {
+    font-family: 'Nunito', sans-serif;
+    margin-top: 10px;
+    color: rgb(225, 253, 240);
+}
