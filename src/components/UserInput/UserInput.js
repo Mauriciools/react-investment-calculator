@@ -4,10 +4,10 @@ import SingleInput from "./SingleInput";
 import "./UserInput.css";
 
 const emptyInputs = {
-    current_savings: 0,
-    yearly_savings: 0,
-    expected_interest: 0,
-    investment_duration: 0
+    current_savings: 1000,
+    yearly_savings: 100,
+    expected_interest: 2,
+    investment_duration: 15
 };
 
 function UserInput(props) {
@@ -15,12 +15,12 @@ function UserInput(props) {
 
     const submitHandler = (event) => {
         event.preventDefault();
-
-        console.log('Submit ;)');
+        props.onCalculate(inputValue);
     };
 
     const resetHandler = (event) => {
         setInputValue(emptyInputs);
+        props.onReset();
     };
 
     const inputChangeHandler = (input, value) => {

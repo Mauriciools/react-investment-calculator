@@ -1,0 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito&family=Rubik&display=swap');
+
+table {
+    font-family: 'Nunito', sans-serif;
+    margin: 2rem auto;
+    table-layout: fixed;
+    text-align: center;
+    border-spacing: 1rem;
+}
+
+table thead {
+    color: rgb(225, 253, 240);
+}

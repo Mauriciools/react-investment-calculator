@@ -1,7 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito&family=Rubik&display=swap');
+
 .App {
   display: flex;
   flex-direction: column;
   text-align: center;
   align-items: center;
   gap: 1rem;
+}
+
+.App p {
+  font-family: 'Nunito', sans-serif;
+  font-weight: bold;
 }
